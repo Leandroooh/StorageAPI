@@ -1,0 +1,18 @@
+{
+	"name": "storageapi",
+	"version": "1.0.0",
+	"main": "server.js",
+	"scripts": {
+		"start": "node --watch server.js",
+		"json-server": "npx json-server --watch db.json"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"description": "",
+	"dependencies": {
+		"express": "^4.21.2",
+		"json-server": "^1.0.0-beta.3"
+	}
+}
